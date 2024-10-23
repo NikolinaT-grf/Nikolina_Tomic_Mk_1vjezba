@@ -1,0 +1,51 @@
+/* Opći stilovi */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('IMG_4845.jpeg'); /* Putanja do slike */
+    background-size: cover; /* Slika pokriva cijelu pozadinu */
+    background-position: center; /* Centriranje pozadine */
+    color: rgb(165, 77, 77);
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Visina stranice cijeli prozor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stilovi za h1 */
+h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    background-color: rgba(55, 21, 21, 0.5); /* Prozirna crna pozadina */
+    padding: 10px;
+}
+
+/* Stilovi za p */
+p {
+    font-family: 'Verdana', sans-serif;
+    font-weight: normal;
+    color: #ddd;
+    background-color: rgba(0, 0, 0, 0.5); /* Prozirna crna pozadina */
+    padding: 10px;
+}
+/* Postavljanje fonta za cijelu stranicu */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Stilovi za h1 */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; /* Koristi deblju varijantu fonta */
+}
+
+/* Stilovi za p */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
